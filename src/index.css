@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200;300;400&family=Gentium+Book+Plus:ital,wght@1,400;1,700&family=Lobster&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  /* font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Gentium Book Plus', serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Righteous', cursive; */
+  font-family: 'Poppins', sans-serif;
+}
+
+.title{
+  font-family: 'Righteous';
+  @apply text-4xl
+}
+.subtitle{
+  font-family: 'Fira Sans Condensed';
+  @apply text-xl
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,163 @@
+.nav-top ul li:hover{
+    @apply bg-white text-black
+}
+.nav-top ul li .icon:hover{
+    @apply text-black
+}
+.transisi {
+    transition: 0.5s;
+}
+
+header.sticky .content-header {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    @apply fixed py-5 px-16 mt-20 flex text-black  duration-500 rounded-lg bg-transparent bg-gray-700 w-4/5 justify-center content-center items-center
+}
+
+.bg-home {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://wallpapercave.com/wp/wp5987705.jpg);
+    /* background-attachment: fixed; */
+    background-size: cover;
+    @apply flex flex-col rounded-lg gap-2 mx-20 mb-10 mt-5 items-center justify-center w-full
+}
+.frame-vid{
+    height: 650px;
+}
+.card{
+    @apply w-1/4 h-full rounded-lg border-2 border-gray-600 
+}
+.card-genre{
+    @apply rounded-xl
+    
+}
+
+.card-genre:hover img{
+    @apply scale-95 duration-1000 ease-in-out transform brightness-75;
+}
+.card-genre:hover .container-list h2{
+    @apply text-sm duration-700 ease-in-out transform;
+}
+.card-genre:hover .container-list {
+    @apply  bottom-8     relative;
+}
+
+.card-zoom-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://wallpapercave.com/wp/wp5987705.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition-duration: .3s;
+    @apply transition-all duration-500 ease-in-out transform bg-center bg-cover rounded-lg;
+}
+.card-zoom-text {
+    @apply absolute text-3xl font-black transition-all duration-500 ease-in-out transform scale-150 text-white opacity-60;
+}
+.card:hover{
+    @apply border-none
+}
+.card:hover .card-zoom-image{
+    @apply scale-105;
+}
+
+.card:hover .card-zoom-text {
+    @apply scale-105 text-gray-50;
+}
+
+
+.card .container-card:hover{
+    @apply duration-500 ease-in-out text-3xl
+}
+.title-footer{
+    font-family: 'Righteous',cursive;
+    @apply text-2xl 
+}
+.subtitle-footer {
+    font-family: 'Lobster';
+    @apply text-sm
+}
+
+.list-footer ul li{
+    @apply text-white text-sm font-normal
+}
+
+
+.card-image-shooter{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://resize.indiatvnews.com/en/resize/oldbucket/730_-/businessindia/IndiaTvfeea5f_asd.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition-duration: .3s;
+    @apply transition-all duration-500 ease-in-out transform bg-center bg-cover rounded-lg;
+}
+.card-image-sports{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.pcgamesn.com/wp-content/sites/pcgamesn/2021/05/best-sports-games-1.jpg);
+        background-position: center center;
+        background-size: cover;
+        transition-duration: .3s;
+        @apply transition-all duration-500 ease-in-out transform bg-center bg-cover rounded-lg;
+}
+
+.card-image-racing {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(http://en.chinaculture.org/focus/focus/2011dmyx/attachement/jpg/site1/20110705/0013729e4a580f7d0c1406.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition-duration: .3s;
+    @apply transition-all duration-500 ease-in-out transform bg-center bg-cover rounded-lg;
+}
+.card-image-moba {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.pcgamesn.com/wp-content/sites/pcgamesn/2018/05/Best-MOBA-580x334.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition-duration: .3s;
+    @apply transition-all duration-500 ease-in-out transform bg-center bg-cover rounded-lg;
+}
+
+.card-image-mmorpg {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://cdn.mos.cms.futurecdn.net/TfTSaWA8ZLo6F3bYS9ae5M.jpeg);
+    background-position: center center;
+    background-size: cover;
+    transition-duration: .3s;
+    @apply transition-all duration-500 ease-in-out transform bg-center bg-cover rounded-lg;
+}
+
+.card-image-fighting {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://gameranx.com/wp-content/uploads/2019/10/Metal-Revolution-1024x576.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition-duration: .3s;
+    @apply transition-all duration-500 ease-in-out transform bg-center bg-cover rounded-lg;
+}
+
+.card-image-action {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.digiseller.ru/preview/392497/p1_2666658_5796d3d2.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition-duration: .3s;
+    @apply transition-all duration-500 ease-in-out transform bg-center bg-cover rounded-lg;
+}
+
+.card-image-strategy {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.pcgamesn.com/wp-content/sites/pcgamesn/2021/07/the-best-strategy-games-on-pc-2021.jpg);
+    background-position: center center;
+    background-size: cover;
+    transition-duration: .3s;
+    @apply transition-all duration-500 ease-in-out transform bg-center bg-cover rounded-lg;
+}
+
+.play:hover{
+    @apply brightness-100 duration-500 ease-in-out
+}
+
+.facebook:hover{
+    @apply text-blue-800 duration-500 ease-in-out scale-100 brightness-95
+}
+.instagram:hover{
+    @apply text-red-800 duration-500 ease-in-out scale-100 brightness-95
+}
+.twitter:hover{
+    @apply text-blue-500 duration-500 ease-in-out scale-100 brightness-95
+}
+
+.facebook, .instagram, .twitter{
+    @apply scale-90 items-center justify-center
+}
+.footer-link:hover{
+    @apply brightness-100 duration-500 ease-in-out
+}
